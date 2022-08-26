@@ -54171,7 +54171,7 @@ var WidgetMicroFront = (window.webpackJsonpWidgetMicroFront =
                               ? `${
                                   localStorage.getItem("point_name") ||
                                   "Anonimo"
-                                } ${
+                                }${
                                   localStorage.getItem("country_id")
                                     ? " - " + localStorage.getItem("country_id")
                                     : ""
