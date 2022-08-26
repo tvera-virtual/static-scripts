@@ -54168,8 +54168,14 @@ var WidgetMicroFront = (window.webpackJsonpWidgetMicroFront =
                           id: Object(Su.v4)(),
                           name:
                             null == n.name || "" === n.name
-                              ? localStorage.getItem("point_name") ||
-                                "Anonimo"
+                              ? `${
+                                  localStorage.getItem("point_name") ||
+                                  "Anonimo"
+                                } ${
+                                  localStorage.getItem("country_id")
+                                    ? " - " + localStorage.getItem("country_id")
+                                    : ""
+                                }`
                               : n.name,
                           pointId: localStorage.getItem("id_punto_pickit"),
                           countryId: localStorage.getItem("country_id"),
