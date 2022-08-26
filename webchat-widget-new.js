@@ -54171,7 +54171,7 @@ var WidgetMicroFront = (window.webpackJsonpWidgetMicroFront =
                               ? localStorage.getItem("point_name") ||
                                 "Anonimo"
                               : n.name,
-                          pointId: localStorage.getItem("serie_id"),
+                          pointId: localStorage.getItem("id_pickit_point"),
                           countryId: localStorage.getItem("country_id"),
                           attachment: null,
                           timestamp: new Date(),
